@@ -105,8 +105,8 @@ const Home = () => {
 				<button className={"btn mx-2 rounded-circle btn-success " + margenbt} onClick={encenderVerde} style={{height: "100px", boxShadow: color3}}></button>
 				<button className={"btn mb-2 mx-2 rounded-circle " + display} onClick={encenderVioleta} style={{height: "100px", backgroundColor: "purple", boxShadow: color4}}></button>
 			</div>
-			<button type="button" className="btn btn-info m-5" onClick={alternarColor}>Click to change light</button>
-			<button type="button" className="btn btn-info m-5" onClick={desplegarVioleta}>Click to add blue light</button>
+			<button type="button" className="btn btn-info m-3" onClick={alternarColor}>Click to change light</button>
+			<button type="button" className="btn btn-info m-2" onClick={desplegarVioleta}>Click to add purple light</button>
 		</div>
 	);
 };
